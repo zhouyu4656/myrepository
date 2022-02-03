@@ -14,7 +14,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="ad-sponsor" value="f665e2b9-73d2-4bf8-adcf-452da70d6e8e" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
